@@ -271,7 +271,7 @@ pol = [('money', 'Pedidos desde $100.000', 'Tu pedido al por mayor puede ser des
        ('key', 'Pagos', 'Pagas por llave o en efectivo.'),
        ('eye', 'Revisa tu pedido', 'Al recibir, revisa bien todos tus productos antes de irte.'),
        ('doc', 'Sin devoluciones', 'No se hacen devoluciones. Por eso es importante revisar todo al recibir.'),
-       ('shield', 'Después de la entrega', 'Una vez entregado el pedido, Macías no se hace responsable si la pólvora se daña o se descompone por humedad, calor, mal almacenamiento o mal uso.'),
+       ('shield', 'Decomisos', 'Una vez entregado el pedido, Macías no se hace responsable si la pólvora es decomisada por las autoridades. Infórmate de las normas de tu municipio antes de transportarla o usarla.'),
        ('clock', 'Precios por tiempo limitado', f'Los precios especiales de este catálogo son válidos hasta el {FECHA}.')]
 ph = ''.join(f'<div class="pol"><div class="pol-ic">{ic(I[k],22)}</div><div><h3>{t}</h3><p>{d}</p></div></div>' for k, t, d in pol)
 pages.append(page('dark', 'Políticas', f'''
