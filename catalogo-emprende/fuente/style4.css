@@ -1,0 +1,39 @@
+.cover h1{font-size:51pt}
+.why-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5mm;margin-top:8mm}
+.why{background:#fff;padding:6mm 5mm;border-top:1.2mm solid var(--r3)}
+.why h3{font-size:13pt;color:var(--r2);margin-bottom:1.5mm}
+.why p{font-size:10.5pt;line-height:1.45}
+.red-t{color:var(--r3)}
+.pline{font-size:10pt;margin-top:2mm;padding-top:2mm;border-top:.3mm solid var(--line);opacity:.85}
+.dark .pline{border-color:var(--lined)}
+.win.price-hero b{color:var(--blk)}
+.dark .win.price-hero b{color:#fff}
+.ch .win.price-hero b{font-size:25pt}
+.strike{text-decoration:line-through;opacity:.6}
+/* ranking en página clara */
+.cream .ranking{border-color:var(--line)}
+.cream .rk{border-color:var(--line)}
+.cream .rk-n{color:var(--r3)}
+.cream .rk-t b{color:var(--r2)}
+.cream .rk-g small,.cream .rk-g b{color:var(--r3)}
+.cream .calc-box span{color:var(--gold)}
+/* combos en página oscura */
+.dark .band{background:var(--r2)}
+.dark .kit{color:var(--blk)}
+/* escalera en página clara */
+.cream .ladder{border-color:var(--line)}
+.cream .rung{border-color:var(--line)}
+.cream .rung.r1{background:var(--r3)}
+.cream .rung.r1 h3,.cream .rung.r1 p{color:#fff}
+.cream .rung-ic{border-color:var(--r3);color:var(--r3)}
+.cream .rung.r1 .rung-ic{border-color:var(--gold);color:var(--gold)}
+.cream .rung-amt{color:var(--r2)}
+.cream .rung.r1 .rung-amt{color:var(--gold)}
+.cream .rung h3{color:var(--r2)}
+.cream .rung p{opacity:.85}
+.cream .rung.r2{background:transparent}
+.cream .rung.r2 .rung-amt{color:var(--r2)}
+.feat .win small{color:var(--gold)}
+.feat .win.price-hero b{color:#fff}
+.feat .win em,.feat .pline{color:var(--cream)}
+.feat .pline{border-color:var(--lined)}
